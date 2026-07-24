@@ -844,6 +844,56 @@ footer {
 
 .stat-card .stat-label { font-size: 13px; color: var(--mid); margin-top: 4px; }
 
+.project-meta-table {
+  margin: 32px 0 40px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.project-meta-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-meta-row:last-child { border-bottom: none; }
+
+.project-meta-row dt {
+  padding: 16px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--mid);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: var(--light);
+}
+
+.project-meta-row dd {
+  padding: 16px 20px;
+  font-size: 15px;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.img-placeholder {
+  aspect-ratio: 16/9;
+  background: var(--light);
+  border: 2px dashed var(--border);
+  color: var(--mid);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 20px;
+  gap: 8px;
+}
+
+.img-placeholder .img-placeholder-icon { font-size: 22px; display: block; margin-bottom: 6px; }
+
 .requirement-list { list-style: none !important; margin-left: 0 !important; }
 .requirement-list li {
   display: flex;
@@ -893,6 +943,7 @@ footer {
   .skills-grid { grid-template-columns: 1fr; }
   .project-info { padding: 36px 28px; }
   .stats-row { grid-template-columns: 1fr; }
+  .project-meta-row { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: 1fr; }
   .footer-inner { flex-direction: column; gap: 20px; text-align: center; }
   .photo-grid { grid-template-columns: 1fr 1fr; }
