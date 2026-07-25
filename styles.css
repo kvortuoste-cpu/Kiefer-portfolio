@@ -109,33 +109,7 @@ nav {
 
 .nav-cta:hover { opacity: 0.85 !important; }
 
-.nav-toggle {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  width: 32px;
-  height: 32px;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  flex-shrink: 0;
-}
-
-.nav-toggle span {
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: var(--white);
-  border-radius: 2px;
-  transition: transform var(--transition), opacity var(--transition);
-}
-
-.nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.nav-toggle.open span:nth-child(2) { opacity: 0; }
-.nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.bottom-nav { display: none; }
 
 /* ── HERO ── */
 .hero {
@@ -967,31 +941,42 @@ footer {
 }
 
 @media (max-width: 700px) {
-  .nav-toggle { display: flex; }
+  .nav-links { display: none; }
 
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: 64px;
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 4px;
+  body { padding-bottom: 88px; }
+
+  .bottom-nav {
+    display: flex;
+    position: fixed;
+    top: auto;
+    height: auto;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    z-index: 100;
     background: rgba(10, 10, 10, 0.98);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--border-dark);
-    padding: 12px 20px 20px;
+    border: 1px solid var(--border-dark);
+    border-radius: 100px;
+    padding: 6px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
   }
 
-  .nav-links.open { display: flex; }
+  .bottom-nav a {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px 10px;
+    border-radius: 100px;
+    transition: background var(--transition);
+  }
 
-  .nav-links li { width: 100%; }
-
-  .nav-links a { display: block; padding: 12px 14px; }
-
-  .nav-links .nav-cta { text-align: center; margin-top: 8px; }
+  .bottom-nav a:hover,
+  .bottom-nav a:active { background: rgba(255,255,255,0.08); }
 }
 
 @media (max-width: 600px) {
