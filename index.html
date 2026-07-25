@@ -16,8 +16,10 @@
       <img src="https://cdn.prod.website-files.com/600dd981ce22ee2e8f990c9b/6525b7ed10de05530be01b3d_Logo.svg" alt="Kiefer Ortuoste">
       <span class="nav-logo-text">Kiefer Ortuoste</span>
     </a>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="about.html">About</a></li>
       <li><a href="https://drive.google.com/file/d/1T43-vgGjB7QuNBMTuuy-uAcMVYQBOZUd/view?usp=share_link" target="_blank">Résumé</a></li>
       <li><a href="mailto:kv.ortuoste@gmail.com" class="nav-cta">Contact</a></li>
@@ -165,7 +167,7 @@
 <!-- TESTIMONIALS -->
 <section class="section testimonials-section">
   <div class="section-inner">
-    <div class="section-label" style="color:rgba(255,255,255,0.4)">Kind words</div>
+    <div class="section-label" style="color:var(--mid)">Kind words</div>
     <h2 class="section-title">What people say</h2>
     <div class="testimonials-grid">
 
@@ -224,5 +226,6 @@
   </div>
 </footer>
 
+<script src="nav.js" defer></script>
 </body>
 </html>

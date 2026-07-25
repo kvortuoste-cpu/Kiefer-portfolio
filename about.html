@@ -15,8 +15,10 @@
       <img src="https://cdn.prod.website-files.com/600dd981ce22ee2e8f990c9b/6525b7ed10de05530be01b3d_Logo.svg" alt="Kiefer Ortuoste">
       <span class="nav-logo-text">Kiefer Ortuoste</span>
     </a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="about.html" class="active">About</a></li>
       <li><a href="https://drive.google.com/file/d/1T43-vgGjB7QuNBMTuuy-uAcMVYQBOZUd/view?usp=share_link" target="_blank">Résumé</a></li>
       <li><a href="mailto:kv.ortuoste@gmail.com" class="nav-cta">Contact</a></li>
@@ -30,7 +32,7 @@
     <div>
       <h1>Product Designer · Music maker · Bubble tea lover</h1>
       <p class="about-headline">· Occasional runner</p>
-      <p class="about-bio">Hi, I'm Kiefer <em style="font-style:normal;color:rgba(255,255,255,0.4)">(key-fur)</em>, a Product Designer with almost half a decade of experience working with companies to design better experiences for their customers.</p>
+      <p class="about-bio">Hi, I'm Kiefer <em style="font-style:normal;color:var(--mid)">(key-fur)</em>, a Product Designer with almost half a decade of experience working with companies to design better experiences for their customers.</p>
       <p class="about-bio">I believe design — alongside technology and research — has the capacity to improve business, society, and the human condition. Designing a good experience is not just a requirement, it's a deeper responsibility to the people we serve and the relationships we build.</p>
       <p class="about-bio">I am a specialist in User Research and Interaction Design, however I have experience in all aspects of the design process from research and discovery through to design and production.</p>
       <a href="mailto:kv.ortuoste@gmail.com" class="btn btn-primary" style="margin-top:8px">
@@ -166,5 +168,6 @@
   </div>
 </footer>
 
+<script src="nav.js" defer></script>
 </body>
 </html>
