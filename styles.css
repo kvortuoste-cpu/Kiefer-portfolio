@@ -74,6 +74,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 1;
 }
 
 /* ── NAV ── */
@@ -671,6 +673,7 @@ footer {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 12px;
+  width: 300px;
 }
 
 .recognition-card strong {
@@ -1016,6 +1019,8 @@ footer {
 
   /* Add padding to body so content clears the bottom nav */
   body { padding-bottom: 96px; }
+
+  .recognition-card { width: 100%; }
 }
 
 /* ── RESPONSIVE ── */
