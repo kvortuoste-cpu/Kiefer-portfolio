@@ -251,6 +251,13 @@ nav {
 
 .btn-primary:hover { background: rgba(255,255,255,0.88); transform: translateY(-1px); }
 
+.btn-accent {
+  background: var(--accent);
+  color: var(--black);
+}
+
+.btn-accent:hover { background: #5de0a3; transform: translateY(-1px); }
+
 .btn-secondary {
   background: rgba(255,255,255,0.08);
   color: var(--white);
@@ -452,7 +459,7 @@ nav {
   text-decoration: none;
 }
 
-.project-image { background: #2a2a2a; }
+.project-image { background: #2a2a2a; order: -1; }
 
 .project-link svg { transition: transform var(--transition); }
 .project-card:hover .project-link svg { transform: translateX(4px); }
@@ -638,8 +645,9 @@ footer {
 
 .recognitions-row {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .recognition-card {
@@ -721,8 +729,6 @@ footer {
   position: relative;
 }
 
-.photo-item:nth-child(1) { grid-column: span 2; aspect-ratio: 2/1; }
-.photo-item:nth-child(4) { grid-column: span 2; aspect-ratio: 2/1; }
 
 .photo-item img {
   width: 100%;
@@ -1014,7 +1020,6 @@ footer {
   .project-toc { display: none; }
   .cta-strip-inner { flex-direction: column; text-align: center; padding: 48px 32px; }
   .photo-grid { grid-template-columns: repeat(2, 1fr); }
-  .photo-item:nth-child(1), .photo-item:nth-child(4) { grid-column: span 2; }
 }
 
 @media (max-width: 600px) {
