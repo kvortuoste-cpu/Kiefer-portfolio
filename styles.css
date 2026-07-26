@@ -154,7 +154,6 @@ nav {
 /* ── HERO ── */
 .hero {
   background: var(--off-black);
-  min-height: 100vh;
   display: flex;
   align-items: center;
   padding: 120px 32px 80px;
@@ -216,10 +215,8 @@ nav {
 
 .hero h1 {
   font-size: var(--text-h1);
-  font-weight: var(--weight-black);
   color: var(--white);
   line-height: 1.1;
-  letter-spacing: -0.03em;
   margin-bottom: 24px;
 }
 
@@ -345,9 +342,7 @@ nav {
 
 .section-title {
   font-size: var(--text-h2);
-  font-weight: var(--weight-black);
   color: var(--white);
-  letter-spacing: -0.025em;
   line-height: 1.15;
   margin-bottom: 24px;
   max-width: 560px;
@@ -450,9 +445,7 @@ nav {
 
 .project-info h3 {
   font-size: var(--text-h2);
-  font-weight: var(--weight-black);
   color: var(--white);
-  letter-spacing: -0.025em;
   line-height: 1.15;
   margin-bottom: 16px;
 }
@@ -558,9 +551,7 @@ nav {
 
 .cta-strip-text h2 {
   font-size: var(--text-h2);
-  font-weight: var(--weight-black);
   color: #191919;
-  letter-spacing: -0.025em;
   margin-bottom: 12px;
 }
 
@@ -619,9 +610,7 @@ footer {
 
 .about-hero h1 {
   font-size: var(--text-h1);
-  font-weight: var(--weight-black);
   color: var(--white);
-  letter-spacing: -0.03em;
   line-height: 1.1;
   margin-bottom: 16px;
 }
@@ -772,9 +761,7 @@ footer {
 
 .project-hero h1 {
   font-size: var(--text-h1);
-  font-weight: var(--weight-black);
   color: var(--white);
-  letter-spacing: -0.03em;
   line-height: 1.1;
   margin-bottom: 20px;
   max-width: 780px;
@@ -838,9 +825,7 @@ footer {
 
 .project-content h2 {
   font-size: var(--text-h2);
-  font-weight: var(--weight-black);
   color: var(--white);
-  letter-spacing: -0.025em;
   margin: 60px 0 20px;
   padding-top: 40px;
   border-top: 1px solid rgba(255,255,255,0.08);
