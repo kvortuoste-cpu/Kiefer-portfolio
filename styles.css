@@ -861,6 +861,37 @@ footer {
   line-height: 1.7;
 }
 
+.overview-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 28px 0 40px;
+  font-size: var(--text-body-sm);
+}
+
+.overview-table tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.overview-table tr:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.overview-table th {
+  text-align: left;
+  font-weight: var(--weight-semibold);
+  color: var(--mid);
+  padding: 16px 24px 16px 0;
+  white-space: nowrap;
+  width: 120px;
+  vertical-align: top;
+}
+
+.overview-table td {
+  color: var(--white);
+  padding: 16px 0;
+  line-height: 1.6;
+}
+
 .project-img {
   width: 100%;
   border-radius: var(--radius);
