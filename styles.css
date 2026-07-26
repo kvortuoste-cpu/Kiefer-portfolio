@@ -218,6 +218,7 @@ nav {
   color: var(--white);
   line-height: 1.1;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .hero h1 em {
