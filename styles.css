@@ -92,9 +92,9 @@ nav {
 }
 
 .nav-inner {
-  max-width: 1200px;
+  max-width: 1248px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 24px;
   height: 64px;
   display: flex;
   align-items: center;
@@ -605,6 +605,7 @@ footer {
 .about-hero {
   background: var(--off-black);
   padding: 140px 32px 80px;
+  min-height: auto;
 }
 
 .about-hero-inner {
