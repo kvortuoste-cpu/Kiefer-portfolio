@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'PP Woodland';
+  src: url('assets/fonts/PPWoodland-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Agrandir Variable';
   src: url('assets/fonts/Agrandir-Variable.ttf') format('truetype');
   font-weight: 100 900;
@@ -33,6 +41,7 @@
   --radius: 12px;
   --radius-lg: 20px;
   --font: 'Agrandir Variable', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'PP Woodland', 'Agrandir Variable', serif;
   --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
   /* ── Type Scale ── */
@@ -61,6 +70,10 @@ body {
   color: var(--white);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
 }
 
 /* ── NAV ── */
