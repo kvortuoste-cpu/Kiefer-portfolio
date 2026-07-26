@@ -636,6 +636,33 @@ footer {
 
 .awards-list { list-style: none; }
 
+.recognitions-row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.recognition-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px 24px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.recognition-card strong {
+  font-size: var(--text-body-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--white);
+}
+
+.recognition-card span {
+  font-size: var(--text-caption);
+  color: var(--mid);
+}
+
 .awards-list li {
   padding: 20px 0;
   border-bottom: 1px solid rgba(255,255,255,0.08);
