@@ -128,13 +128,13 @@ nav {
   font-size: 14px;
   font-weight: 600;
   color: var(--black) !important;
-  background: var(--white) !important;
+  background: var(--accent) !important;
   padding: 8px 18px !important;
   border-radius: 8px !important;
-  transition: opacity var(--transition) !important;
+  transition: background var(--transition) !important;
 }
 
-.nav-cta:hover { opacity: 0.85 !important; }
+.nav-cta:hover { background: #5de0a3 !important; }
 
 /* ── HERO ── */
 .hero {
@@ -334,7 +334,7 @@ nav {
   color: var(--white);
   letter-spacing: -0.025em;
   line-height: 1.15;
-  margin-bottom: 60px;
+  margin-bottom: 24px;
   max-width: 560px;
 }
 
@@ -353,7 +353,7 @@ nav {
   transition: background var(--transition);
 }
 
-.skill-card:hover { background: #2a2a2a; }
+.skill-card:hover { background: var(--card); }
 
 .skill-icon {
   width: 44px;
