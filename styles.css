@@ -350,7 +350,7 @@ nav {
 
 
 /* ── PROJECTS ── */
-.projects-section { background: #191919; }
+.projects-section { background: #191919; padding-top: 0; }
 
 .projects-grid {
   display: flex;
