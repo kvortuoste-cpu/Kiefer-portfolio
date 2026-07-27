@@ -742,7 +742,7 @@ footer {
 }
 
 /* ── PHOTO GALLERY ── */
-.gallery-section { background: #191919; padding: 80px 32px 40px; }
+.gallery-section { background: #191919; padding: 40px 32px 40px; }
 
 .photo-grid {
   display: grid;
