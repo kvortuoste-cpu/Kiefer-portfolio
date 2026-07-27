@@ -553,7 +553,7 @@ footer {
 /* ── ABOUT PAGE ── */
 .about-hero {
   background: var(--off-black);
-  padding: 140px 32px 80px;
+  padding: 140px 32px 40px;
   min-height: auto;
 }
 
@@ -742,7 +742,7 @@ footer {
 }
 
 /* ── PHOTO GALLERY ── */
-.gallery-section { background: #191919; padding: 80px 32px; }
+.gallery-section { background: #191919; padding: 80px 32px 40px; }
 
 .photo-grid {
   display: grid;
