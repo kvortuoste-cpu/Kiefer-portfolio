@@ -34,6 +34,7 @@
   --mid: #8a9099;
   --light: #242424;
   --white: #ffffff;
+  --body-text: #F7F7F7;
   --accent: #78F1B7;
   --accent-light: rgba(120, 241, 183, 0.12);
   --border: rgba(255,255,255,0.1);
@@ -227,7 +228,7 @@ nav {
 
 .hero-sub {
   font-size: var(--text-body);
-  color: rgba(255,255,255,0.55);
+  color: var(--body-text);
   max-width: 520px;
   margin-bottom: 40px;
   line-height: 1.65;
@@ -410,7 +411,7 @@ nav {
 
 .project-info p {
   font-size: var(--text-body-sm);
-  color: rgba(255,255,255,0.5);
+  color: var(--body-text);
   line-height: 1.65;
   margin-bottom: 32px;
 }
@@ -468,7 +469,7 @@ nav {
 
 .testimonial-quote {
   font-size: var(--text-body-sm);
-  color: rgba(255,255,255,0.75);
+  color: var(--body-text);
   line-height: 1.7;
   margin-bottom: 28px;
   font-style: italic;
@@ -583,7 +584,7 @@ footer {
 
 .about-bio {
   font-size: var(--text-body);
-  color: rgba(255,255,255,0.65);
+  color: var(--body-text);
   line-height: 1.75;
   margin-bottom: 36px;
 }
@@ -689,7 +690,7 @@ footer {
 
 .recognitions-plain p {
   font-size: var(--text-body-sm);
-  color: rgba(255,255,255,0.5);
+  color: var(--body-text);
   line-height: 1.7;
   margin-bottom: 4px;
 }
@@ -736,7 +737,7 @@ footer {
 
 .accordion-panel p {
   font-size: var(--text-body-sm);
-  color: var(--mid);
+  color: var(--body-text);
   line-height: 1.7;
   padding-bottom: 24px;
 }
@@ -794,7 +795,7 @@ footer {
 
 .project-hero-sub {
   font-size: var(--text-body);
-  color: rgba(255,255,255,0.55);
+  color: var(--body-text);
   max-width: 620px;
   line-height: 1.65;
 }
@@ -868,14 +869,14 @@ footer {
 
 .project-content p {
   font-size: var(--text-body-sm);
-  color: rgba(255,255,255,0.65);
+  color: var(--body-text);
   line-height: 1.8;
   margin-bottom: 20px;
 }
 
 .project-content ul {
   margin: 0 0 24px 20px;
-  color: rgba(255,255,255,0.65);
+  color: var(--body-text);
   font-size: var(--text-body-sm);
   line-height: 1.8;
 }
