@@ -348,48 +348,6 @@ nav {
   max-width: 560px;
 }
 
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2px;
-  background: var(--border);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-}
-
-.skill-card {
-  background: #222222;
-  padding: 40px 32px;
-  transition: background var(--transition);
-}
-
-.skill-card:hover { background: var(--card); }
-
-.skill-icon {
-  width: 44px;
-  height: 44px;
-  background: rgba(120,241,183,0.12);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-
-.skill-card h3 {
-  font-size: var(--text-h4);
-  font-weight: var(--weight-bold);
-  color: var(--white);
-  margin-bottom: 10px;
-  letter-spacing: -0.02em;
-}
-
-.skill-card p {
-  font-size: var(--text-body-sm);
-  color: var(--mid);
-  line-height: 1.65;
-}
 
 /* ── PROJECTS ── */
 .projects-section { background: #191919; }
@@ -1013,7 +971,6 @@ footer {
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; gap: 48px; }
   .hero-photo { order: -1; max-width: 300px; margin: 0 auto; }
-  .skills-grid { grid-template-columns: 1fr 1fr; }
   .project-card { grid-template-columns: 1fr; min-height: auto; }
   .project-card.reverse { direction: ltr; }
   .project-image { aspect-ratio: 16/9; }
@@ -1030,7 +987,6 @@ footer {
   .nav-inner { padding: 0 20px; }
   .section { padding: 64px 20px; }
   .hero { padding: 100px 20px 64px; }
-  .skills-grid { grid-template-columns: 1fr; }
   .project-info { padding: 36px 28px; }
   .stats-row { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: 1fr; }
